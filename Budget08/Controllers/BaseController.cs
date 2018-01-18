@@ -7,7 +7,7 @@ using System.Web.Mvc;
 
 namespace Budget08.Controllers
 {
-    //add base controller
+    //add base controller for common utils
     public class BaseController : Controller
     {
         public dynamic getUserIdByEmail(string email)
